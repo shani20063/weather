@@ -8,7 +8,7 @@ form.addEventListener('submit',function(e){
     getWeather(cityName);
 });
 async function getWeather(cityName) {
-    let url=`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=${apikey}`
+    let url=`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=${apikey}`
     const response = await fetch(url);
     const data = await response.json();
     showWeatherInfo(data);

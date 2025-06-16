@@ -1,0 +1,28 @@
+
+.main{
+    margin-top: 200px;
+    width: 220px;
+    border-radius: 10px;
+    background-color:aquamarine;
+    box-shadow: 2px 2px 2px aquamarine ;
+}
+#city-name{
+    height: 30px;
+    width: 170px;
+text-align: center;
+border-radius: 10px;
+outline: none;
+border: none;
+}
+#butt{
+    margin-top:10px;
+}
+#butt:hover{
+    background-color: red;
+}
+#Weather-info{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:greenyellow;
+}
